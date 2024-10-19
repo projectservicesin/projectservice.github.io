@@ -113,5 +113,5 @@ nav ul li a{width:100%;float:left;text-decoration:none;padding:15px 10px;font-we
 .gtop{background-color: #6b6b6b;padding:0;position:fixed;bottom:15px;right:20px;border-radius:2px;box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);text-decoration:none;padding:3px;border-radius:50%;width:30px;height:30px;box-sizing:border-box}
 .gtop img{width:25px;height:25px}
 @media screen and (max-width:1150px){.container{width:80%}}
-@media screen and (max-width:940px){.banner-text h1{font-size:40px;line-height:1.8}.banner-text h2{font-size:25px}.services-info,.review-info{width:100%}.contact-sect{width:100%;margin-bottom:25px}.header-menu .menu-toggle{display: block;margin: 22px;}nav ul{display:none;width:230px;position:absolute;height:185px;top:69px;right:0;background:#000000;}nav ul li{width:100%}}
+@media screen and (max-width:940px){.banner-text h1{font-size:40px;line-height:1.8}.banner-text h2{font-size:25px}.services-info,.review-info{width:100%}.contact-sect{width:100%;margin-bottom:25px}.header-menu .menu-toggle{display: block;margin: 22px;}nav ul{display:none;width:230px;position:absolute;height:185px;top:69px;right:0;background:#000000;}nav ul li{width:100%}.aboutus .innerabt{width: 100%;}}
 @media screen and (max-width:520px){.banner-text h1{line-height:1.5}.banner-text h2{font-size:20px}.type-form-section .modal-open{font-size:14px}}
