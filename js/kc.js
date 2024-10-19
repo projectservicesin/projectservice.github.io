@@ -1,14 +1,4 @@
 $(document).ready(function () {
-  $(".modal-open").click(function () {
-    $("body").append('<div class="modal-back-shadow"></div>'),
-      $($(this).data("target")).show(),
-      $("body").addClass("popup-comes");
-  }),
-    $(".modal-close").click(function () {
-      $(".modal").hide(),
-        $(".modal-back-shadow").remove(),
-        $("body").removeClass("popup-comes");
-    }),
     $(document).on("keydown", function (o) {
       27 === o.keyCode && $(".modal,.modal-back-shadow").hide(),
         $(".modal-back-shadow").remove();
