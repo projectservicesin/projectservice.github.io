@@ -14,7 +14,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Dosis'}
 body{font-family:'Segoe UI','Helvetica','Arial',sans-serif;font-weight:400}
 header{width:100%;float:left;background-image:url(../img/Banner.jpg);background-repeat:no-repeat;background-size:cover;background-position:center;position:relative;}
 .head-menu-inner{float:left}
-.head-menu-inner img{width:100px;margin:10px 0 10px 30px;}
+.head-menu-inner img{width:100px;margin:10px 0 }
 .menu-toggle span::before,.menu-toggle span::after{content:'';width:100%;height:100%;background-color:inherit;position:absolute;left:0;-moz-transition-duration:0.2s,0.2s;-o-transition-duration:0.2s,0.2s;-webkit-transition-duration:0.2s,0.2s;-ms-transition-duration:0.2s,0.2s;transition-duration:0.2s,0.2s;-moz-transition-delay:0.2s,0s;-o-transition-delay:0.2s,0s;-webkit-transition-delay:0.2s,0s;-ms-transition-delay:0.2s,0s;transition-delay:0.2s,0s}
 .menu-toggle span{display:block;background-color:#ffffff;width:24px;height:3px;margin-top:-1.5px;font:0/0 a;text-shadow:none;color:transparent;position:absolute;right:8px;top:50%;bottom:auto;left:auto;-moz-transition:background 0.2s ease-in-out;-o-transition:background 0.2s ease-in-out;-webkit-transition:background 0.2s ease-in-out;-ms-transition:background 0.2s ease-in-out;transition:background 0.2s ease-in-out}
 .menu-toggle span::before{top:-8px;-moz-transition-property:top,transform;-o-transition-property:top,transform;-webkit-transition-property:top,transform;-ms-transition-property:top,transform;transition-property:top,transform}
@@ -24,9 +24,6 @@ nav ul{float:left;margin:21px 0}
 nav ul li{float:left;display: block;}
 nav ul li a{width:100%;float:left;text-decoration:none;padding:15px 10px;font-weight:600;font-size:16px;text-transform:uppercase;color:#ffffff;transition:.4s}
 .container{width:1200px;margin:0 auto;position:relative}
-/*
-.header-shadow{position:absolute;top:0;bottom:0;right:0;left:0;background-color:rgba(0,0,0,0.7)}
-*/
 .header-menu{background:#000000;float:left;padding:0 10px;width:100%}
 .header-menu .menu-toggle{float:left;width:35px;height:24px;position:relative;top:12px;left:12px;display:none;}
 .menu-toggle.is-clicked span::before{top:0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}
@@ -35,7 +32,7 @@ nav ul li a{width:100%;float:left;text-decoration:none;padding:15px 10px;font-we
 .menu-toggle.is-clicked span::before,.menu-toggle.is-clicked span::after{background-color:#ffffff;-moz-transition-delay:0s,0.2s;-o-transition-delay:0s,0.2s;-webkit-transition-delay:0s,0.2s;-ms-transition-delay:0s,0.2s;transition-delay:0s,0.2s}
 .header-menu h1{font-weight:600;font-size:24px;float:left;line-height:2;color:#cee5ee;padding:0 20px}
 .header-shadow{position:absolute;width:100%;height:100%;opacity:0.8;background:#0a0a0a}
-.banner-text{float:left;width:100%;text-align:center;padding:10% 0 5%;margin-bottom:50px}
+.banner-text{float:left;width:100%;text-align:center;padding:5% 0 5%;margin-bottom:50px}
 .banner-text h4{font-size:20px;font-weight:400;color:#ffffff;line-height:1.8;letter-spacing:7px}
 .banner-text h1{font-size:55px;font-weight:300;color:#ffffff;line-height:2.5;letter-spacing:7px}
 .banner-text h2{font-size:30px;font-weight:600;color:#ffffff;line-height:2;letter-spacing:7px}
